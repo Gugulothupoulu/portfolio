@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poulu-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2bd048ab4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1-removebg-preview.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi,</p>
+                <h1 class="gugu">I'm<span>Gugulothu Poulu.</span></h1>
+                <h2><span></span></h2>
+
+            </div>
+
+        </div>
+    </div>
+    <!--------------------------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/poulu5.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A Student Working on Actively Learning the Skills Required to be an Efficient Software Engineer, Flexible to Learn New Technologies..</p>
+
+                    <div class="education">
+                        <p class="intro-title active-title " onclick="opentab('intro')">Intro</p>
+                        <p class="intro-title "  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="education-contant introduction" id="intro">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quia, a maiores enim nisi minima quos assumenda est numquam iure vitae dolor inventore nulla. Non esse ducimus molestias repellat iste?</p>
+
+                    </div>
+                    <div class="education-contant" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span></li>
+                            
+                            <p>B.Tech Computer Science ( Vaagdevi College of Engineering )</p>
+                            
+                            <p>CGPA : 7.5</p>
+                            <br>
+                            <li><span>2017 - 2019</span></li>
+                            <p> MPC ( Sri Chaitanya Junior Kalasala )</p>
+                            
+                            <p>Marks : 874 </p>
+                            <br>
+                            <li><span> 2016 - 2017 </span>SR Prime School</li>
+                            <p> SSC ( SR Prime School )</p>
+                            
+                            <p>Grade : 8.5</p>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+
+    </div>
+    <!--------------skills------------------------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="skills-title">My Skills</h1>
+            <div class="skills-list">
+                <img src="images/html-removebg-preview (2).png" alt="">
+                <img src="images/css-removebg-preview.png" alt="">
+                <img src="images/js-removebg-preview.png" alt="">
+                <img src="images/boostrap.png" alt="">
+                <img src="images/react-removebg-preview.png" alt="">
+                <img src="images/nodejs-removebg-preview.png" alt="">
+                <img src="images/git-removebg-preview.png" alt="">
+                <img src="images/gith-removebg-preview.png" alt="">
+            </div>
+
+        </div>
+
+    </div>
+    <!-------------------contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> gugulothupoulu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 6301915430</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"  class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+
+       
+    </div>
+    <div class="copyright">
+        <p> &copygugulothupoulu@2023 </p>
+         
+       </div>
+    <script  src="script.js"></script>
+    
+</body>
+</html>
