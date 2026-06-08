@@ -142,7 +142,7 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 0;
-    background-color: white(27, 26, 26);
+    background-color: bgn(27, 26, 26);
 }
 .row{
     display: flex;
